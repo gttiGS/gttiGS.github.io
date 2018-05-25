@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="img/season-change.jpg" type="image/x-icon">
+		<title>MedSearch</title>
+
+	    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500italic,600,500,600italic,700|Roboto+Condensed:400,700|Open+Sans:400,600,700|PT+Sans:400,700' rel='stylesheet' type='text/css'>		
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		
+	<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/588F5E63-3A43-0849-99C9-13C447E1AE6B/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="http://gc.kis.v2.scr.kaspersky-labs.com/CC347DB9-B61A-C64A-B9EE-7EAC61F9A34E/abn/main.css"/></head>
+
+	<body>
+		<section class= "navs">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  				<div class="container-fluid">    				
+    				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+	      				</button>
+	      				<a class="navbar-brand logo" href="index.html">
+	      					<span><i class="fa fa-stethoscope"></i></span>
+	      					MedSearch
+	      				</a>
+	    			</div>
+				    		
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				    	<ul class="nav navbar-nav navbar-right">
+					        <li><a href="index.html">Home</a></li>							
+					        <li><a href="servicos.html">Serviços</a></li>
+					        <li><a href="medicos.html">Médicos</a></li>
+					        <li><a href="faq.html">FAQs</a></li>
+							<li><a href="cadastro.html">Cadastro</a></li>
+							<li><a href="login.html">Login</a></li>
+							<li><a href="contato.html">Contato</a></li>
+				      	</ul>
+				    </div>
+				</div>
+			</nav>
+		</section>
+		<section id= "contact" class="text-center contact-section">
+			<div class="contact-wrapper section-wrapper">
+				<div class="container">
+					<div class= "row">
+						<h2 class="contact-headline wow animated fadeInLeft"><span>Cadastro Médico</span></h2>
+					</div>
+					<div class="row">
+						<div class="sub-headline">
+							<span><a href="index.html">HOME</a>>CADASTRO</span>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</section>
+	<div class="container">
+    <h1 class="well">Dados Pessoais</h1>
+    <div class="col-lg-12 well">
+    <div class="row">
+                <form accept-charset="UTF-8" role="form" id="cad-form" method="post" action="login.html">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label>Nome(*)</label>
+                                <input type="text" required="required" placeholder="Nome.." class="form-control">
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <label>Sobrenome(*)</label>
+                                <input type="text" required="required" placeholder="Sobrenome.." class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Endereço</label>
+                            <textarea placeholder="Entre com seu endereço aqui.." rows="3" class="form-control"></textarea>
+                        </div>  
+                        <div class="row">
+                            <div class="col-sm-4 form-group">
+                                <label>Cidade</label>
+                                <input type="text" placeholder="Entre com o nome da sua cidade.." class="form-control">
+                            </div>  
+                            <div class="col-sm-4 form-group">
+                                <label>Estado</label>
+                                <input type="text" placeholder="Entre com seu estado aqui.." class="form-control">
+                            </div>  
+                            <div class="col-sm-4 form-group">
+                                <label>País</label>
+                                <input type="text" placeholder="Entre seu país aqui.." class="form-control">
+                            </div>      
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 form-group">
+                                <label>CEP(*)</label>
+                                <input type="text" required="required" placeholder="Entre seu CEP aqui.." name="numbers" pattern="[0-8]+$" class="form-control"/>
+                            </div>   
+                              <div class="col-sm-4 form-group">
+                                <label>Data de Nascimento</label>                                                               
+                            <input type="date" class="form-control">
+                        </div>
+                            <div class="col-sm-4 form-group">
+                                <label>CPF(*)</label>
+                                <input type="text" required="required" placeholder="Entre seu CPF aqui.." name="numbers" pattern="[0-8]+$" class="form-control"/>
+                            </div>                   
+                        </div>
+                     </div>
+                </div>           
+                </div>
+    </div>
+    </div>
+    <div class="container">
+    <h1 class="well">Dados Profissionais</h1>
+    <div class="col-lg-12 well">
+    <div class="row">                
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label>Profissão(*)</label>
+                                <input type="text" required="required" placeholder="Entre com sua profissão aqui.." class="form-control">
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <label>Especialidade(*)</label>
+                                <input type="text" required="required" placeholder="Entre com sua especialidade aqui.." class="form-control">
+                            </div>                                          
+                        <div class="col-sm-6 form-group">
+                            <label>CRM(*)</label>
+                            <input type="text" required="required" placeholder="Entre seu CRM aqui.." name="numbers" pattern="[0-8]+$" class="form-control"/>
+                        </div>                                                                                       
+                    </div>
+                </div>                
+                </div>
+    </div>
+    </div>
+
+                <div class="container">
+                <h1 class="well">Dados de Login</h1>
+                <div class="col-lg-12 well">
+                <div class="row">                
+              <fieldset>                
+                <div class="control-group">
+                  <!-- Username -->
+                  <label class="control-label"  for="username">Username(*)</label>
+                  <div class="controls">
+                    <input type="text" id="username" required="required" name="username" placeholder="" class="form-control">
+                    <p class="help-block">O nome de usuário pode conter letras ou números, sem espaços</p>
+                  </div>
+                </div>
+             
+                <div class="control-group">
+                  <!-- E-mail -->
+                  <label class="control-label" for="email">E-mail(*)</label>
+                  <div class="controls">
+                    <input type="email" required="required" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="form-control"/>
+                    <p class="help-block">Por favor, forneça seu e-mail</p>
+                  </div>
+                </div>
+             
+                <div class="control-group">
+                <label>Senha(*)</label>                
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Senha" required data-toggle="popover" title="Força de Senha" data-content="Entre sua Senha...">
+                </div>            
+                <br>
+                <div class="control-group">
+                <label>Confirme sua Senha(*)</label>                
+                    <input type="password" class="form-control" name="confirm" id="confirm" placeholder="Confirme sua Senha" required>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+            <br>
+             
+                <div class="control-group">
+                  <!-- Button -->
+                  <div class="controls">
+                    <button type="submit" class="btn btn-success contact-form-btn">Cadastrar</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+            </div>
+            </div>
+        </form>
+        </div>
+        </div>
+        </div> 
+        </div>   
+        <br>
+		<section id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<ul class="text-center contact">
+				        	<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Curta no Facebook" class="facebook"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Siga-nos no Twitter" class="twitter"><i class="fa fa-twitter"></i></a>
+							</li>							
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Siga-nos no Instagram" class="instagram"><i class="fa fa-instagram"></i></a>
+							</li>							
+				      	</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copy-right-text text-center">
+							&copy; Copyright 2018, MedSearch.</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="assets/js/wow.min.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script type="text/javascript" src="assets/js/contact.js"></script>
+		<script type="text/javascript" src="assets/js/script.js"></script>
+
+        <script language="javascript">
+        $(document).ready(function(){
+
+//minimum 8 characters
+var bad = /(?=.{8,}).*/;
+//Alpha Numeric plus minimum 8
+var good = /^(?=\S*?[a-z])(?=\S*?[0-9])\S{8,}$/;
+//Must contain at least one upper case letter, one lower case letter and (one number OR one special char).
+var better = /^(?=\S*?[A-Z])(?=\S*?[a-z])((?=\S*?[0-9])|(?=\S*?[^\w\*]))\S{8,}$/;
+//Must contain at least one upper case letter, one lower case letter and (one number AND one special char).
+var best = /^(?=\S*?[A-Z])(?=\S*?[a-z])(?=\S*?[0-9])(?=\S*?[^\w\*])\S{8,}$/;
+
+$('#password').on('keyup', function () {
+    var password = $(this);
+    var pass = password.val();
+    var passLabel = $('[for="password"]');
+    var stength = 'Weak';
+    var pclass = 'danger';
+    if (best.test(pass) === true) {
+        stength = 'Muito Forte';
+        pclass = 'success';
+    } else if (better.test(pass) === true) {
+        stength = 'Forte';
+        pclass = 'warning';
+    } else if (good.test(pass) === true) {
+        stength = 'Médio';
+        pclass = 'warning';
+    } else if (bad.test(pass) === true) {
+        stength = 'Fraco';
+    } else {
+        stength = 'Muito Fraco';
+    }
+
+    var popover = password.attr('data-content', stength).data('bs.popover');
+    popover.setContent();
+    popover.$tip.addClass(popover.options.placement).removeClass('danger success info warning primary').addClass(pclass);
+
+});
+
+$('input[data-toggle="popover"]').popover({
+    placement: 'top',
+    trigger: 'focus'
+});
+
+})
+</script>      
+		
+	</body>
+</html>

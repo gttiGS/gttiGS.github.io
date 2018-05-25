@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="img/season-change.jpg" type="image/x-icon">
+		<title>MedSearch</title>
+
+	    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500italic,600,500,600italic,700|Roboto+Condensed:400,700|Open+Sans:400,600,700|PT+Sans:400,700' rel='stylesheet' type='text/css'>		
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		
+	<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/588F5E63-3A43-0849-99C9-13C447E1AE6B/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="http://gc.kis.v2.scr.kaspersky-labs.com/CC347DB9-B61A-C64A-B9EE-7EAC61F9A34E/abn/main.css"/></head>
+
+	<body>
+		<section class= "navs">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  				<div class="container-fluid">
+    				
+    				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+	      				</button>
+	      				<a class="navbar-brand logo" href="index.html">
+	      					<span><i class="fa fa-stethoscope"></i></span>
+	      					MedSearch
+	      				</a>
+	    			</div>
+		
+		    		
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				    	<ul class="nav navbar-nav navbar-right">
+					        <li><a href="index.html">Home</a></li>							
+					        <li><a href="servicos.html">Serviços</a></li>
+					        <li><a href="medicos.html">Médicos</a></li>
+					        <li><a href="faq.html">FAQs</a></li>
+							<li><a href="cadastro.html">Cadastro</a></li>
+							<li><a href="login.html">Login</a></li>
+							<li><a href="contato.html">Contato</a></li>
+				      	</ul>
+				    </div>
+				</div>
+			</nav>
+		</section>
+		<section id= "contact" class="text-center contact-section">
+			<div class="contact-wrapper section-wrapper">
+				<div class="container">
+					<div class= "row">
+						<h2 class="contact-headline wow animated fadeInLeft"><span>Contate-nos</span></h2>
+					</div>
+					<div class="row">
+						<div class="sub-headline">
+							<span><a href="index.html">HOME</a>>CONTATO</span>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</section>
+		<section class="contact-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 contact-article">
+						<h2>Alguma Dúvida?</h2>
+						<p class="contact-left-content-p">
+							Mauris nec ligula dui, fermentum nisl ut magna dolor, rhoncus wisi. In lacus sagittis luctus, nisl eros, sit amet tempor et, accumsan eget, pede. Suspendisse est. Ut rhoncus eu, pede. Vestibulum ante ipsum dolor lorem, iaculis mi. Pellentesque eu urna eget dolor. Duis luctus a, dolor. Duis ac sapien.
+						</p>
+						<p class="contact-left-content-p">
+							Praesent lacinia dapibus, accumsan vesti bulum. Pellen tesque molestie mollis.Estibulum dapibus, maurimalesfames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus ultricies gravida vitae...
+						</p>
+					</div>
+					<div class="col-md-6 contact-form">
+						<h2>Deixe uma Mensagem</h2>
+						<div id="contactFormResponse">
+							
+						</div>
+						<form method="POST" action="https://formspree.io/medsearcharaguari@gmail.com" id="ss-form">
+							<div class="form-group">
+							    <input type="text" class="form-control contact-form-control" name="name" id="name" placeholder="Nome Completo">
+							</div>
+							<div class="form-group">
+							    <input type="email" class="form-control contact-form-control" name="email" id="email" placeholder="Email">
+							</div>
+							<div class="form-group">
+							    <textarea class="form-control contact-form-control" type="text" id="message" name="message" placeholder="Escreva sua mensagem aqui..."></textarea>
+							</div>
+							<button type="submit" name="submit" id="cfsubmit" class="contact-form-btn btn btn-primary" required>Enviar Mensagem</button>
+						</form>
+					</div>
+					
+				</div>
+				<div class="row">
+					<h2 class='text-center contact-details-heading'>Detalhes para contato</h2>
+					<div class="col-md-6">
+						<div id="map-canvas" class="contact-wrapper"></div>
+					</div>
+					<div class="col-md-6 contact-address">
+						<div class="contact-block clearfix">
+							<div class="left-block">
+								<i class="fa fa-map-marker"></i>
+							</div>
+							<div class="right-block">
+								<h4 class="contact-block-heading">Endereço do Escritório</h4>
+								<p class="contact-block-paragrap">Av. Minas Gerais, 1889 Centro. Araguari, MG, Brasil. </p>
+							</div>
+						</div>
+						<div class="contact-block clearfix">
+							<div class="left-block">
+								<i class="fa fa-phone"></i>
+							</div>
+							<div class="right-block">
+								<h4 class="contact-block-heading">Telefone</h4>
+								<p class="contact-block-paragrap">Fixo: 0000-0000</p>
+								<p class="contact-block-paragrap">Celular: 0000-0000</p>
+							</div>
+						</div>
+						<div class="contact-block clearfix">
+							<div class="left-block">
+								<i class="fa fa-envelope-o"></i>
+							</div>
+							<div class="right-block">
+								<h4 class="contact-block-heading">Endereço de Email</h4>
+								<p class="contact-block-paragrap">medsearcharaguari@gmail.com</p>								
+							</div>
+						</div>					
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<ul class="text-center contact">
+				        	<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Curta no Facebook" class="facebook"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Siga-nos no Twitter" class="twitter"><i class="fa fa-twitter"></i></a>
+							</li>							
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Siga-nos no Instagram" class="instagram"><i class="fa fa-instagram"></i></a>
+							</li>							
+				      	</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copy-right-text text-center">
+							&copy; Copyright 2018, MedSearch.</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="assets/js/wow.min.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script type="text/javascript" src="assets/js/contact.js"></script>
+		<script type="text/javascript" src="assets/js/script.js"></script>
+		<script>
+	      function initialize() {
+	        var mapCanvas = document.getElementById('map-canvas');
+	        var mapOptions = {
+	          center: new google.maps.LatLng(-18.6556773,-48.1890446,17),
+	          zoom: 16,
+	          mapTypeId: google.maps.MapTypeId.ROADMAP,
+	          scrollwheel:  false
+	        }
+	        var map = new google.maps.Map(mapCanvas, mapOptions)
+	      }
+	      google.maps.event.addDomListener(window, 'load', initialize);
+	    </script>
+
+		<script>
+      		new WOW().init();
+		</script>
+
+
+	</body>
+</html>

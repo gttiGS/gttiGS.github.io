@@ -1,0 +1,660 @@
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="img/season-change.jpg" type="image/x-icon">
+		<title>MedSearch</title>
+
+
+	    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500italic,600,500,600italic,700|Roboto+Condensed:400,700|Open+Sans:400,600,700|PT+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/588F5E63-3A43-0849-99C9-13C447E1AE6B/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="http://gc.kis.v2.scr.kaspersky-labs.com/CC347DB9-B61A-C64A-B9EE-7EAC61F9A34E/abn/main.css"/></head>
+
+	<body>
+		<section class= "navs">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  				<div class="container-fluid">    				
+    				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+	      				</button>
+	      				<a class="navbar-brand logo" href="index.html">
+	      					<span><i class="fa fa-stethoscope"></i></span>
+	      					MedSearch
+	      				</a>
+	    			</div>
+				    		
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				    	<ul class="nav navbar-nav navbar-right">
+					        <li><a href="index.html">Home</a></li>							
+					        <li><a href="servicos.html">Serviços</a></li>
+					        <li><a href="medicos.html">Médicos</a></li>
+					        <li><a href="faq.html">FAQs</a></li>
+							<li><a href="cadastro.html">Cadastro</a></li>
+							<li><a href="login.html">Login</a></li>
+							<li><a href="contato.html">Contato</a></li>
+				      	</ul>
+				    </div>
+				</div>
+			</nav>
+		</section>
+
+		<section id= "starting" class="text-center doctors-section">
+			<div class="doctors-wrapper-inner section-wrapper">
+				<div class="container">
+					<div class= "row">
+						<h2 class="doctors-headline wow animated fadeInLeft"><span>Médicos</span></h2>
+					</div>
+					<div class="row">
+						<div class="sub-headline">
+							<span><a href="index.html">Home</a>>Médicos</span>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</section>
+
+		<div align="center">
+            <button class="btn btn-default filter-button contact-form-btn" data-filter="todos">Todos</button>
+            <button class="btn btn-default filter-button contact-form-btn" data-filter="gineco">Ginecologistas</button>
+            <button class="btn btn-default filter-button contact-form-btn" data-filter="cardio">Cardiologistas</button>
+            <button class="btn btn-default filter-button contact-form-btn" data-filter="dermato">Dermatologistas</button>
+            <button class="btn btn-default filter-button contact-form-btn" data-filter="pediatras">Pediatras</button>
+            <button class="btn btn-default filter-button contact-form-btn" data-filter="orto">Ortopedistas</button>
+        </div>
+				
+		<section class= "doctor-list">
+			<div class= "container">
+				<div class= "row">
+					<div class= "col-lg-4 col-sm-6 col-xs-12 filter gineco">
+						<div class= "blackbox doctor-meta">							
+							<div class= "doctor-img">
+								<img class= "img-responsive center-block" src="assets/img/MedSDoctors-1.png" alt="">
+							</div>
+							<div class= "doctor-info">
+
+								<div class= "row">
+									<div class= "doctor-name text-center">
+										Maria
+									</div>
+								</div>
+
+								<div class= "row">
+									<div class= "position text-center">
+										Ginecologista
+									</div>
+								</div>
+
+								<a class="info" href="#aboutModal" data-toggle="modal" data-target="#myModal">Ver Mais</a>
+
+								<div class= "row">
+									<div class= "doctor-des text-center">
+										<p>
+											Especialista dedicada à saúde reprodutiva da mulher, com foco no acompanhamento das diferentes etapas de uma gestação. 
+										</p>
+									</div>
+								</div>
+								
+
+								<div class= "row">
+									<div class="doctor-social text-center">
+										<ul class="contact">
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Skype"><i class="fa fa-skype"></i></a>
+											</li>
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Google +"><i class="fa fa-google-plus"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>						
+
+							</div>
+						</div>
+					</div>
+					<div class= "col-lg-4 col-sm-6 col-xs-12 filter orto">
+						<div class= "blackbox doctor-meta">
+							<div class= "doctor-img">
+								<img class= "img-responsive center-block" src="assets/img/MedSDoctors-2.png" alt="">
+							</div>
+							<div class= "doctor-info">
+								<div class= "row">
+									<div class= "doctor-name text-center">
+										João
+									</div>
+								</div>
+								<div class= "row">
+									<div class= "position text-center">
+										Ortopedista
+									</div>
+								</div>
+
+								<a class="info" href="#aboutModal2" data-toggle="modal" data-target="#myModal2">Ver Mais</a>
+
+								<div class= "row">
+									<div class= "doctor-des text-center">
+										<p>
+											Especialista que tratam de doenças, lesões e deformidades que afetam nosso aparelho locomotor.
+										</p>
+									</div>
+								</div>
+								<div class= "row">
+									<div class="doctor-social text-center">
+										<ul class="contact">
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Skype"><i class="fa fa-skype"></i></a>
+											</li>
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Google +"><i class="fa fa-google-plus"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								
+							</div>
+						</div>               
+						</div>
+						<div class= "col-lg-4 col-sm-6 col-xs-12 filter dermato">
+						<div class= "blackbox doctor-meta">
+							<div class= "doctor-img">
+								<img class= "img-responsive center-block" src="assets/img/MedSDoctors-3.png" alt="">
+							</div>
+							<div class= "doctor-info">
+								<div class= "row">
+									<div class= "doctor-name text-center">
+										Jonas
+									</div>
+								</div>
+								<div class= "row">
+									<div class= "position text-center">
+										Dermatologia
+									</div>
+								</div>
+
+								<a class="info" href="#aboutModal3" data-toggle="modal" data-target="#myModal3">Ver Mais</a>
+
+								<div class= "row">
+									<div class= "doctor-des text-center">
+										<p>
+											Concentra-se no diagnóstico, prevenção e tratamento de doenças e afecções relacionadas à pele, pelos, mucosas e cabelo.
+										</p>
+									</div>
+								</div>								
+
+								<div class= "row">
+									<div class="doctor-social text-center">
+										<ul class="contact">
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Skype"><i class="fa fa-skype"></i></a>
+											</li>
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Google +"><i class="fa fa-google-plus"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>																
+							</div>
+						</div>
+						</div>
+						<div class= "col-lg-4 col-sm-6 col-xs-12 fdp filter psico">
+						<div class= "blackbox doctor-meta">
+							<div class= "doctor-img">
+								<img class= "img-responsive center-block" src="assets/img/MedSDoctors-3.png" alt="">
+							</div>
+							<div class= "doctor-info">
+								<div class= "row">
+									<div class= "doctor-name text-center">
+										Maurício
+									</div>
+								</div>
+								<div class= "row">
+									<div class= "position text-center">
+										Psiquiatria
+									</div>
+								</div>
+
+								<a class="info" href="#aboutModal4" data-toggle="modal" data-target="#myModal4">Ver Mais</a>
+
+								<div class= "row">
+									<div class= "doctor-des text-center">
+										<p>
+											Especialista no diagnóstico e tratamento de pacientes com diferentes transtornos mentais de cunho orgânico ou funcional.
+										</p>
+									</div>
+								</div>
+
+								<div class= "row">
+									<div class="doctor-social text-center">
+										<ul class="contact">
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Skype"><i class="fa fa-skype"></i></a>
+											</li>
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Google +"><i class="fa fa-google-plus"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div class= "col-lg-4 col-sm-6 col-xs-12 filter cardio">
+						<div class= "blackbox doctor-meta">
+							<div class= "doctor-img">
+								<img class= "img-responsive center-block" src="assets/img/MedSDoctors-2.png" alt="">
+							</div>
+							<div class= "doctor-info">
+								<div class= "row">
+									<div class= "doctor-name text-center">
+										José
+									</div>
+								</div>
+								<div class= "row">
+									<div class= "position text-center">
+										Cardiologista
+									</div>
+								</div>
+
+								<a class="info" href="#aboutModal5" data-toggle="modal" data-target="#myModal5">Ver Mais</a>
+
+								<div class= "row">
+									<div class= "doctor-des text-center">
+										<p>
+											Especialista que ocupa-se do diagnóstico e tratamento das doenças do coração e do sistema cardiovascular.
+										</p>
+									</div>
+								</div>
+
+								<div class= "row">
+									<div class="doctor-social text-center">
+										<ul class="contact">
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Skype"><i class="fa fa-skype"></i></a>
+											</li>
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Google +"><i class="fa fa-google-plus"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div class= "col-lg-4 col-sm-6 col-xs-12 filter pediatras">
+						<div class= "blackbox doctor-meta">
+							<div class= "doctor-img">
+								<img class= "img-responsive center-block" src="assets/img/MedSDoctors-1.png" alt="">
+							</div>
+							<div class= "doctor-info">
+								<div class= "row">
+									<div class= "doctor-name text-center">
+										Julia
+									</div>
+								</div>
+								<div class= "row">
+									<div class= "position text-center">
+										Pediatra
+									</div>
+								</div>
+
+								<a class="info" href="#aboutModal6" data-toggle="modal" data-target="#myModal6">Ver Mais</a>
+
+								<div class= "row">
+									<div class= "doctor-des text-center">
+										<p>
+											Especialidade médica dedicada à criança e ao adolescente acompanhando o desenvolvimento do paciente.
+										</p>
+									</div>
+								</div>
+								
+								<div class= "row">
+									<div class="doctor-social text-center">
+										<ul class="contact">
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Skype"><i class="fa fa-skype"></i></a>
+											</li>
+											<li class="online-contact">
+												<a href="#" data-toggle="tooltip" title="Google +"><i class="fa fa-google-plus"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>	
+
+   <!--------- MODALS ----------->	
+
+		<!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Mais sobre Maria</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="assets/img/MedSDoctors-1.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Maria Carolina <br><small>Brasil</small></h3>
+                    <span><strong>Especialidade: </strong></span>
+                        <span class="label label-success">Ginecologia</span>                        
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                        Especialista dedicada à saúde reprodutiva da mulher, com foco no acompanhamento das diferentes etapas de uma gestação.</p>
+                    <br>
+                    <hr>
+                    </center>     
+                    <center>
+                    	<p class="text-left"><strong>Locais e Horarios de Atendimento: </strong><br>
+                        Especialista dedicada à saúde reprodutiva da mulher, com foco no acompanhamento das diferentes etapas de uma gestação.</p>
+							<ul class="list-unstyled opening-hours">
+								<li>Sunday <span class="pull-right">Closed</span></li>
+								<li>Monday <span class="pull-right">9:00-22:00</span></li>
+								<li>Tuesday <span class="pull-right">9:00-22:00</span></li>
+								<li>Wednesday <span class="pull-right">9:00-22:00</span></li>
+								<li>Thursday <span class="pull-right">9:00-22:00</span></li>
+								<li>Friday <span class="pull-right">9:00-23:30</span></li>
+								<li>Saturday <span class="pull-right">14:00-23:30</span></li>
+							</ul>
+                        <br>
+                        <hr>
+                    </center>
+                    <center>
+                    <p class="text-left"><strong>Contato: </strong><br>
+                        Especialista dedicada à saúde reprodutiva da mulher, com foco no acompanhamento das diferentes etapas de uma gestação.</p>
+                    <br>
+                    <hr>
+                    </center>                	
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Li o bastante sobre Maria Carolina</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    	</div>  
+
+    	<!-- Modal 2 -->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Mais sobre João</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="assets/img/MedSDoctors-2.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">João Sinhorelli <br><small>Brasil</small></h3>
+                    <span><strong>Especialidade: </strong></span>
+                        <span class="label label-success">Ortopedia</span>                        
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                        Especialista que tratam de doenças, lesões e deformidades que afetam nosso aparelho locomotor.</p>
+                    <br>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Li o bastante sobre João Sinhorelli</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    	</div>
+
+    	<!-- Modal 3 -->
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Mais sobre Jonas</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="assets/img/MedSDoctors-3.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Jonas Freitas <br><small>Brasil</small></h3>
+                    <span><strong>Especialidade: </strong></span>
+                        <span class="label label-success">Dermatologia</span>                        
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                       Concentra-se no diagnóstico, prevenção e tratamento de doenças e afecções relacionadas à pele, pelos, mucosas e cabelo.</p>
+                    <br>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Li o bastante sobre Jonas Freitas</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    	</div>	
+
+    	<!-- Modal 4 -->
+    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Mais sobre Maurício</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="assets/img/MedSDoctors-3.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Maurício Ferrari <br><small>Brasil</small></h3>
+                    <span><strong>Especialidade: </strong></span>
+                        <span class="label label-success">Psiquiatria</span>                       
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                       Especialista no diagnóstico e tratamento de pacientes com diferentes transtornos mentais de cunho orgânico ou funcional.</p>
+                    <br>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Li o bastante sobre Maurício Ferrari</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    	</div>
+
+    	<!-- Modal 5 -->
+    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Mais sobre José</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="assets/img/MedSDoctors-2.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">José Lopes <br><small>Brasil</small></h3>
+                    <span><strong>Especialidade: </strong></span>
+                        <span class="label label-success">Cardiologia</span>                        
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                       Especialista que ocupa-se do diagnóstico e tratamento das doenças do coração e do sistema cardiovascular.</p>
+                    <br>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Li o bastante sobre José Lopes</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    	</div>
+
+    	<!-- Modal 6 -->
+    <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Mais sobre Julia</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="assets/img/MedSDoctors-1.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Julia Carvalho <br><small>Brasil</small></h3>
+                    <span><strong>Especialidade: </strong></span>
+                        <span class="label label-success">Pediatria</span>                        
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                        Especialidade médica dedicada à criança e ao adolescente acompanhando o desenvolvimento do paciente.</p>
+                    <br>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Li o bastante sobre Julia Carvalho</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    	</div>
+
+	        			
+
+<!--------------- FIM MODALS -------------------->
+
+  		<section id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<ul class="text-center contact">
+				        	<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Curta no Facebook" class="facebook"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Siga-nos no Twitter" class="twitter"><i class="fa fa-twitter"></i></a>
+							</li>							
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Siga-nos no Instagram" class="instagram"><i class="fa fa-instagram"></i></a>
+							</li>							
+				      	</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copy-right-text text-center">
+							&copy; Copyright 2018, MedSearch.</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="assets/js/wow.min.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/contact.js"></script>
+		<script type="text/javascript" src="assets/js/script.js"></script>
+
+  		<script>
+      		new WOW().init();
+		</script>
+
+		<script type="text/javascript">
+			             
+	//<!--    portfolio  JS  =================    -->
+       
+      $(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "todos")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+        }
+        else
+        {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    	});
+    
+		    if ($(".filter-button").removeClass("active")) {
+		$(this).removeClass("active");
+		}
+		$(this).addClass("active");
+
+		});
+
+		</script>
+
+		<script language="javascript">
+
+					// highlight current day on opeining hours
+			$(document).ready(function() {
+			$('.opening-hours li').eq(new Date().getDay()).addClass('today');
+			});
+		</script>
+
+	</body>
+</html>
+
